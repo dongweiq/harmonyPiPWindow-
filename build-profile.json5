@@ -1,0 +1,42 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/edy/.ohos/config/default_VideoPlay_uBDoEqePi2h-RFvEb91i8W6GroZ4Jh-W5OBQLurjWA4=.cer",
+          "storePassword": "0000001B56BC8536665E169C8C0CD21F2F9BB8B8EE33820D3888E3BE804A0A37AF2CECB55C347C03F6D100",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B78DDE6768302286ECD5CD68A96E1FFC3D5CFD16F75D657894FAFA31C8ED1C203B8DFB31120C717",
+          "profile": "/Users/edy/.ohos/config/default_VideoPlay_uBDoEqePi2h-RFvEb91i8W6GroZ4Jh-W5OBQLurjWA4=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/edy/.ohos/config/default_VideoPlay_uBDoEqePi2h-RFvEb91i8W6GroZ4Jh-W5OBQLurjWA4=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
